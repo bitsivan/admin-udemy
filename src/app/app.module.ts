@@ -13,23 +13,26 @@ import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component'
 import { APP_ROUTES } from './app.routes';
 import { PagesComponent } from './pages/pages.component';
 import { RegisterComponent } from './login/register.component';
+import { PagesModule } from './pages/pages.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    NopagefoundComponent,
-    DashboardComponent,
-    ProgressComponent,
-    Graficas1Component,
-    HeaderComponent,
-    SidebarComponent,
-    BreadcrumsComponent,
-    PagesComponent,
-    RegisterComponent
+    RegisterComponent,
+    //NopagefoundComponent,
+    // DashboardComponent,
+    // ProgressComponent,
+    // Graficas1Component,
+    // HeaderComponent,
+    // SidebarComponent,
+    // BreadcrumsComponent,
+    //PagesComponent,
+    
   ],
   imports: [
     BrowserModule,
+    PagesModule,
     APP_ROUTES
   ],
   providers: [],
